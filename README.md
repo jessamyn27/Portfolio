@@ -1,58 +1,88 @@
-# 02 Advanced CSS: Portfolio
+# Profile Website with HTML and CSS
 
-## Your Task
+#### Created a Personal Portfolio Websiteusing html, css and responsve techniques like flexbox, @media and css selectors
 
-Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Table of Contents
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+**[Quick Links](#Quick-Links)**<br>
+**[First Looks](#First-Looks)**<br>
+**[Wireframes](#Wireframes)**<br>
+**[Bugs and Known Issues](#Bugs-and-Known-Issues)**<br>
+**[Next Steps to Continue](#Next-Steps-to-Continue)**<br>
+**[Acceptance Criteria](#Acceptance-Criteria)**<br>
+**[Bonus](#Bonus)**<br>
+**[Deliverables](#Deliverables)**<br>
+**[License](#License)**<br>
 
-With these points in mind, in this homework you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+## Quick Links
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+- click here to view --> [final website](https://github.com/jessamyn27/2-Profile-Website-with-HTML-and-CSS)
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
+- click here too view --> [homework assignment details](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/tree/master/02-Advanced-CSS/02-Homework)
 
-
-## User Story
-
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
-
-## Acceptance Criteria
-
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+- click here to view --> [README GUIDE from UT](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/blob/master/01-HTML-Git-CSS/02-Homework/Homework-Guide/README.md)
 
 
-## Mock-Up
+## First Looks
 
-The following animation shows the web application's appearance and functionality:
+# ![](main/images/profile-pic-desktop)
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 
+## Wireframes
+
+
+## Bugs and Known Issues
+
+- More contact info and responsive UI clean up needed
+
+## Next Steps to Continue
+
+### Next Steps for App UI and Functionality
+
+- More accessiblity like hover text info
+- More browser compatibility css and @media queries to clean up some responsive scaling
+- Add more accessibility (label ever form control / page lang idenity / all interactive elements keyboard accessible like sliders)
+- Hover, Focus and other accessibilty standards need some tweaking
+- test and clean up run time efficiency based on Google Analytics (organize acct structure / includes and excludes checklist ect..)
+- Code Clean up CSS: set up global variables in SCSS for reusables (fonts, colors, headings and other elements ect...)
+- Create more reusable classes and class combos in CSS as well as changing some classes to id's if only used once
+- Set more standards for basic elements in CSS
+- add Sass or Less structure that compiles to one CSS for code organizastion and better css nesting/functional variables 
+
+### Next Steps for Code
+
+- GIVEN I need to sample a potential employee's previous work
+- WHEN I load their portfolio
+- THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+- WHEN I click one of the links in the navigation
+- THEN the UI scrolls to the corresponding section
+- WHEN I click on the link to the section about their work
+- THEN the UI scrolls to a section with titled images of the developer's applications
+- WHEN I am presented with the developer's first application
+- THEN that application's image should be larger in size than the others
+- WHEN I click on the images of the applications
+- THEN I am taken to that deployed application
+- WHEN I resize the page or view the site on various screens and devices
+- THEN I am presented with a responsive layout that adapts to my viewport
+
+### My Interpretation of the Acceptance Criteria:
+- homework 2 acceptance criteria:
+- display name
+- display profile photo
+- 3 sections in nav that are links that when clicked scroll to the section in the page:
+- about paragraph
+- body of work
+- contact info
+- body of work should have:
+- titles with images/screenshots of work 3 - 5 examples (fake for now)
+- first image is larger than the other
+- all images are clickable links that take to the deployed app (fake for now) that the image/screenshot shows
+- entire page is responsive from desktop (max 990 or so) to mobile (min 300px or so) 
+- encouraged to use what we just learned to make this happen: flexbox / @media queries / css variables
 
 ## Grading Requirements
 
-This homework is graded based on the following criteria: 
+- This homework is graded based on the following criteria: 
 
 ### Technical Acceptance Criteria: 40%
 
@@ -92,5 +122,26 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+### Bonus
+
+- 1. Transpile JS for compatibility with other browsers (Safari/iOS)
+- 2. Use of the Airbnb style guide
+- 3. Unit tests for critical functions
+- 4. Use JSDocs 3 pattern for comments
+- 5. Write a list of bugs or known issues for your implementation if needed
+
+
+### Deliverables
+
+- 1. All source files (ES6 and SCSS)
+- 2. HTML and CSS files (unminified)
+- 3. GitHub repository link in UT Portal
+- 4. Gitpages live website link in UT Portal
+
+### License
+
+[MIT License](https://opensource.org/licenses/MIT)
+
+
+**[Back Up To Top](#Code-Refactor-in-HTML-and-CSS)**
