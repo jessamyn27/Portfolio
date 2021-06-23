@@ -25,10 +25,16 @@
 
 ## First Looks
 
-# ![](main/images/profile-pic-desktop)
+# ![](main/images/profile-pic-desktop.png)
+
+# ![](main/images/profile-pic-mid.png)
+
+# ![](main/images/profile-pic-md.png)
+
+# ![](main/images/profile-pic-mobile.png)
 
 
-## Wireframes
+## Wireframes - n/a
 
 
 ## Bugs and Known Issues
