@@ -86,6 +86,13 @@
         text-decoration: none;
     }
     
+    a {
+        color: #80afdf;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+    }
+    
     nav a i {
         vertical-align: bottom;
         padding: 4px 4px 0 0;
@@ -94,7 +101,9 @@
     header:hover,
     nav a:hover,
     h2:hover,
-    span:hover {
+    span:hover,
+    a:hover,
+    i:hover {
         color: #fff;
     }
     
@@ -115,13 +124,18 @@
     .images {
         max-width: 800px;
         width: 400px;
-        margin: 10px;
+        margin: 25px 10px 10px 10px;
+        text-align: center;
+    }
+    
+    .images a {
+        margin-bottom: 20px;
     }
     
     .images img {
         width: 100%;
         border: 15px solid rgb(142, 186, 223, .25);
-        height: 93%;
+        height: 83%;
     }
     
     section>section {
@@ -367,6 +381,9 @@
         .profile-image {
             max-width: 100%;
             width: 100%;
+        }
+        .images img {
+            height: 70%;
         }
         nav a i {
             margin-bottom: 12px;
