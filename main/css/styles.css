@@ -7,8 +7,8 @@
     #wrapper {
         justify-content: center;
         flex-direction: column;
-        background-color: #c0d7ed;
-        background: linear-gradient(180deg, #e3cddf, #c0d7ed, #f1e398, #f58870, #e3cddf);
+        background-color: #c0d7ed5b;
+        background: linear-gradient(180deg, #e3cddfb1, #c0d7edbd, #f1e49898, #e3cddfa3);
         background-size: 1000% 1000%;
         -webkit-animation: AnimationName 100s ease-in-out infinite;
         -moz-animation: AnimationName 100s ease-in-out infinite;
@@ -43,7 +43,7 @@
         padding-top: 50px;
         background-color: #e3cddf;
         color: #80afdf;
-        background: linear-gradient(179deg, #e3cddf, #b9c8d6, #f1e398);
+        background: linear-gradient(179deg, #e3cddfaa, #b9c8d69c, #f1e4989f);
         background-size: 600% 600%;
         -webkit-animation: AnimationName 30s ease infinite;
         -moz-animation: AnimationName 30s ease infinite;
