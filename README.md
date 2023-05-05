@@ -16,7 +16,7 @@
 
 ## Quick Links
 
-- click here to view --> [final website](https://jessamyn27.github.io/Portfolio)
+- click here to view --> [final website](https://jessamyn27.github.io/Portfolio/)
 
 - click here too view --> [homework assignment details](https://github.com/the-Coding-Boot-Camp-at-UT/UTA-VIRT-FSF-FT-06-2021-U-LOL/tree/master/02-Advanced-CSS/02-Homework)
 
